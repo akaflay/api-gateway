@@ -1,4 +1,4 @@
-package com.better.coder;
+package code.better.com.runtime;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -10,9 +10,9 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableDiscoveryClient
 @EnableZuulProxy
 @EnableCircuitBreaker
-public class ApiGatewayApplication {
+public class ApiGateway {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiGatewayApplication.class, args);
+		SpringApplication.run(ApiGateway.class, args);
 	}
 }
