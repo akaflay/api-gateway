@@ -19,7 +19,7 @@ clouserApp = function () {
         let promise=new Promise((resolve, reject) => {
 
             let response= $.ajax({
-		    url: "http://35.231.142.231/app/students",
+		    url: "http://nepalthinktank.com/app/students",
                 success:(result,status,xhr)=> {
                     resolve(result);
                 },
